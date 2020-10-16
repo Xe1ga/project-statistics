@@ -10,4 +10,4 @@ def test_func(text: str, count: int = 10, fio: str):
 
 
 if __name__ == "__main__":
-    test_func_2('Ольга')
+    test_func_2('Ольга Седова')
