@@ -4,8 +4,9 @@ def test_func_2(name: str, count: int = 5):
         test_func(f'Привет, {name}')
 
 
-def test_func(text: str, count: int = 10):
-    print(text)
+def test_func(text: str, count: int = 10, fio: str):
+    for _ in range(count):
+        print(text, fio)
 
 
 if __name__ == "__main__":
