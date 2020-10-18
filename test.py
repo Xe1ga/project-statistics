@@ -1,12 +1,23 @@
-
+@test_func
 def test_func_2(name: str, count: int = 5):
-    for _ in range(count):
-        test_func(f'Привет, {name}')
+    """
 
+    :param name:
+    :param count:
+    :return:
+    """
+    s = f'Привет, {name}'
+    return s
 
-def test_func(text: str, count: int = 10, fio: str):
+def test_func(text: str, count: int = 10):
+    """
+
+    :param text:
+    :param count:
+    :return:
+    """
     for _ in range(count):
-        print(text, fio)
+        print(text)
 
 
 if __name__ == "__main__":
