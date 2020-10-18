@@ -9,7 +9,7 @@ def test_func_2(name: str):
     s = f'Привет, {name}'
     return s
 
-def test_func(text: str, count: int = 10):
+def test_func(text: str, count: int = 5):
     """
 
     :param text:
